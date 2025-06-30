@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 300px;
+  margin-top: -200px;
+  margin-left: -200px;
+ 
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background:red;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+background: linear-gradient(to bottom, #40af82,#40af82);
+  background-color: green; /* Couleur principale */ 
+  
+}
+
+
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 30px;
+  align-items: center;
+  gap: 13px;
+}
+
+.bar {
+  height: 4px;
+  background-color: black;
+  border-radius: 2px;align-items: center;
+}
+
+
+
+.frame {
+  width: 400px;
+  height: 400px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;  /* centrer horizontalement */
+  align-items: center;      /* centrer verticalement */
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* espace entre les barres */
+  align-items: center;
+}
+
+.bar {
+  width: 80px;
+  height: 8px;
+  background-color:white;
+  border-radius: 2px;
+  align-items: center;
+
+}
