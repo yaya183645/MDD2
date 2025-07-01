@@ -64,3 +64,43 @@ background: linear-gradient(to bottom, #40af82,#40af82);
   align-items: center;
 
 }
+  
+
+
+
+
+
+
+
+
+.menu-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-icon div {
+  width: 80px;
+  height: 9px;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Quand on clique (classe "change" activée) */
+.menu-icon.change .bar1 {
+  transform: rotate(45deg) translate(7px, 7px);
+  background-color: white;
+}
+
+.menu-icon.change .bar2 {
+  opacity: 0;
+}
+
+.menu-icon.change .bar3 {
+  transform: rotate(-45deg) translate(7px, -7px);
+  background-color: white;
+}
